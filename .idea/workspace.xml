@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b287020-d112-4e62-adfe-8671b653dfb6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wsdl/RequestBankRules.java" afterPath="$PROJECT_DIR$/src/main/java/wsdl/RequestBankRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -478,12 +478,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507386314760</updated>
       <workItem from="1507386317536" duration="11382000" />
-      <workItem from="1507472854682" duration="23368000" />
+      <workItem from="1507472854682" duration="23430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34750000" />
+    <option name="totallyTimeSpent" value="34812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1394" height="877" extended-state="0" />
