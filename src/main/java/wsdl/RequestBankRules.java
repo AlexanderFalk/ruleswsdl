@@ -9,7 +9,7 @@ import java.util.List;
 public class RequestBankRules {
 
     private static AssignRulesToBanks banks = new AssignRulesToBanks();
-    
+
     public List<String> getBanks(int minCreditScore, double loanAmount, String customerLoanDuration) {
         return banks.bankNames(minCreditScore, loanAmount, customerLoanDuration);
     }
