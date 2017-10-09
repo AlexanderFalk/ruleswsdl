@@ -11,7 +11,7 @@ public class RequestBankRules {
     private static AssignRulesToBanks banks = new AssignRulesToBanks();
 
     @WebMethod
-    public List<String> getBanks(int minCreditScore, double loanAmount, String customerLoanDuration) {
+    public static List<String> getBanks(int minCreditScore, double loanAmount, String customerLoanDuration) {
         return banks.bankNames(minCreditScore, loanAmount, customerLoanDuration);
     }
 
