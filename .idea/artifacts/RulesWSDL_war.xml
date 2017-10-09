@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RulesWSDL:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="rules.war">
+      <element id="artifact" artifact-name="RulesWSDL:war exploded" />
+    </root>
+  </artifact>
+</component>
