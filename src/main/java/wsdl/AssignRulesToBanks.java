@@ -3,6 +3,8 @@ package wsdl;
 import com.sun.javaws.jnl.XMLFormat;
 import wsdl.Banks.CPHBusinessBankJson;
 import wsdl.Banks.CPHBusinessBankXML;
+import wsdl.Banks.Group14BankJson;
+import wsdl.Banks.Group14BankXML;
 import wsdl.Rules.Rules;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,11 +13,15 @@ public class AssignRulesToBanks {
 
     private CPHBusinessBankXML cphBusinessBankXML = new CPHBusinessBankXML();
     private CPHBusinessBankJson cphBusinessBankJson = new CPHBusinessBankJson();
+    private Group14BankXML bankXML = new Group14BankXML();
+    private Group14BankJson bankJson = new Group14BankJson();
 
     private List<Rules> getBankRules() {
         List<Rules> banks = new ArrayList<>();
         banks.add(cphBusinessBankXML);
         banks.add(cphBusinessBankJson);
+        banks.add(bankXML);
+        banks.add(bankJson);
         return banks;
     }
 
