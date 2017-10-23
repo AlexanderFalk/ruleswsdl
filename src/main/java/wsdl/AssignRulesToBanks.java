@@ -1,6 +1,5 @@
 package wsdl;
 
-import com.sun.javaws.jnl.XMLFormat;
 import wsdl.Banks.CPHBusinessBankJson;
 import wsdl.Banks.CPHBusinessBankXML;
 import wsdl.Banks.Group14BankJson;

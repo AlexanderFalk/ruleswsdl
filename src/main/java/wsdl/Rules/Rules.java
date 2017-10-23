@@ -16,7 +16,7 @@ public interface Rules {
 
     static boolean calculateYears(String customerLoanDuration, double MIN_LOAN_YEARS, double MAX_LOAN_YEARS) {
         String appliedDate = customerLoanDuration;
-        double inYears = 0;
+        double inYears;
         try {
             Date stringToDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS zzz").parse(appliedDate);
 
